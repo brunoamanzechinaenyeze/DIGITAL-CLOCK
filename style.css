@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(45deg, #08001f,#30197d);
+    color: white;
+}
+
+#clockcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    text-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.75);
+    font-weight: bold;
+}
